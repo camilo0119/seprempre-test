@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
 
 const Tabs = ({ tabsList = [] }) => {
   const [currentTab, setCurrentTab] = useState(tabsList[0]);
@@ -43,9 +42,5 @@ const Tabs = ({ tabsList = [] }) => {
     </div>
   );
 };
-
-// Tabs.propTypes = {
-//     tabsList: PropTypes.array
-// }
 
 export default Tabs;

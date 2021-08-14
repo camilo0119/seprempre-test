@@ -14,7 +14,7 @@ const SlideProduct = () => {
     <div>
       <div className="columns is-vcentered slide-product">
         <div className="column content">
-          <img src={pictureSelected.url} />
+          <img src={pictureSelected.url} alt={pictureSelected.alt}/>
         </div>
       </div>
       <div className="columns is-vcentered is-mobile is-gapless">

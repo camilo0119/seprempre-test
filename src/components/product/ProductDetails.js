@@ -6,7 +6,7 @@ import EspecificationsList from "../commons/EspecificationsList";
 import Tabs from "../commons/Tabs";
 
 const ProductDetails = () => {
-  const [productData, setproductData] = useState(productInfo);
+  const [productData, ] = useState(productInfo);
 
   const tabsContent = Object.keys(productInfo.about).map(key => ({
       title: key,
