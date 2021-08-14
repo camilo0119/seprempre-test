@@ -1,0 +1,38 @@
+.slide-product {
+  border-radius: 8px;
+  border: 2px solid $color-grey-light;
+  width: 100%;
+  height: 336px;
+  margin: 0;
+  position: relative;
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+.slide-product__preview {
+  border-radius: 8px;
+  border: 2px solid $color-grey-light;
+  height: 100px;
+  position: relative;
+  margin-right: 7px;
+  margin-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+  }
+}

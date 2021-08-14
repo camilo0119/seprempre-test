@@ -1,0 +1,44 @@
+.footer {
+    background-color: $color-grey-footer;
+    border: 1px solid $color-grey-footer-border;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 152px;
+    p {
+        font-size: 14px;
+        margin-bottom: 0.7rem !important;
+        .title {
+            color: $color-black;
+            font-weight: 500;
+        }
+        .content {
+            color: $color-dark-grey;
+            font-weight: 400;
+        }
+    }
+    .price {
+        text-align: end;
+        .total-pay {
+            font-weight: 700;
+            font-size: 27.65px;
+            color: $color-black;
+            line-height: 1rem;
+        }
+    }
+}
+
+.price {
+    display: block;
+}
+
+.footer__spacing {
+    height: 154px;
+}
+
+@media (min-width: 480px) {
+  .footer {
+    margin-top: -34px !important;
+  }
+}

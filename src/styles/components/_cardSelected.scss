@@ -1,0 +1,35 @@
+.card-selected {
+    border-radius: 8px;
+    border: 2px solid $color-grey-light;
+    color: $color-dark-grey;
+    margin: 10px 0 10px 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 20px;
+    p {
+        font-size: 14px;
+        .title {
+            color: $color-black;
+            font-weight: 500;
+        }
+        .content {
+            color: $color-dark-grey;
+            font-weight: 400;
+            .price {
+                text-align: end;
+            }
+        }
+    }
+}
+
+.card-selected:hover {
+    border: 2px solid $color-dark-grey;
+}
+
+.card-selected__active {
+    border: 2px solid $color-active;
+}
+
+.card-selected__active:focus {
+    box-shadow: 10px 10px 0 10px black;
+}

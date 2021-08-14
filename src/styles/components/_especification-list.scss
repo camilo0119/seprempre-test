@@ -1,0 +1,12 @@
+.especification-list {
+  .item-list {
+    border: 1px $color-grey-light;
+    border-style: solid none;
+    margin-top: -1px;
+  }
+  p {
+    color: $color-black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

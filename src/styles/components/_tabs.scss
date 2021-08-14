@@ -1,0 +1,26 @@
+.tabs__buttons_section {
+    display: flex;
+}
+
+.tabs__button {
+    border-bottom:2px solid transparent;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+    display: flex;
+    align-items: left;
+    margin-right: 20px !important;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 500;
+    width: auto;
+}
+
+.tabs__active {
+    border-bottom:2px solid $color-black;
+    color: $color-black;
+}
+
+.tabs__content {
+    font-size: 16px;
+    color: $color-dark-grey;
+}
