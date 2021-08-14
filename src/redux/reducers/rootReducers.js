@@ -1,6 +1,6 @@
 import {combineReducers} from 'redux';
-import { uiReducer } from './uiReducers';
+import { loadingReducer } from './loadingReducer';
 
 export const rootReducers = combineReducers({
-    ui: uiReducer
+    ui: loadingReducer
 })
